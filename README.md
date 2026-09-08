@@ -6,8 +6,8 @@
 ## 5 - [Telas](Tela.jpg)
 ## 6 - Código Fonte: 
 Para acessar o código-fonte do projeto:
-Acesse o repositório.
-Clique em Switch branches/tags.
+1. Acesse o repositório.
+2. Clique em Switch branches/tags.
 Selecione a branch Master.
 Navegue pelos arquivos do projeto.
 ## 7 - Para acessar o APK: 
