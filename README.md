@@ -12,7 +12,7 @@ Para acessar o código-fonte do projeto:
 4. Navegue pelos arquivos do projeto.
 ## 7 - Para acessar o APK: 
 Para acessar o arquivo APK do aplicativo:
-1. Acesse o código do aplicativo.
+1. Acesse o código do aplicativo seguindo o **TÓPICO 6**.
 2. Entre na pasta **app**.
 3. Localize o arquivo **"app-debug.apk"**.
 
