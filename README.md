@@ -4,3 +4,5 @@
 ## 3 - [Documentação](documentacao.md)
 ## 4 - [Tecnologias utilizadas](TECNOLOGIAS.md)
 ## 5 - [Telas](Tela.jpg)
+## 6 - Para acessar projeto e APK
+
