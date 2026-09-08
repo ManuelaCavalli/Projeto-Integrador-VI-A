@@ -8,11 +8,11 @@
 Para acessar o código-fonte do projeto:
 1. Acesse o repositório.
 2. Clique em Switch branches/tags.
-Selecione a branch Master.
-Navegue pelos arquivos do projeto.
+3. Selecione a branch Master.
+4. Navegue pelos arquivos do projeto.
 ## 7 - Para acessar o APK: 
 Para acessar o arquivo APK do aplicativo:
-Acesse o código do aplicativo.
-Entre na pasta app.
-Localize o arquivo app-debug.apk.
+1. Acesse o código do aplicativo.
+2. Entre na pasta app.
+3. Localize o arquivo "app-debug.apk".
 
