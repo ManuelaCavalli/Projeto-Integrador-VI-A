@@ -7,4 +7,4 @@
 ## 6 - Para acessar Código Fonte: 
 alterar clicar em Switch branches/tags > Master
 ## 7 - Para acessar o APK: 
-entrar no código do aplicativo > app > 
+entrar no código do aplicativo > app > app-debug.apk
