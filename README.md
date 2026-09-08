@@ -4,5 +4,7 @@
 ## 3 - [Documentação](documentacao.md)
 ## 4 - [Tecnologias utilizadas](TECNOLOGIAS.md)
 ## 5 - [Telas](Tela.jpg)
-## 6 - Para acessar Código e APK: 
-alterar clicar em Switch Branches > Master
+## 6 - Para acessar Código Fonte: 
+alterar clicar em Switch branches/tags > Master
+## 7 - Para acessar o APK: 
+entrar no código do aplicativo > app > 
