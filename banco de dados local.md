@@ -1,8 +1,8 @@
-Por que escolhemos o Room Database?
+## Por que escolhemos o Room Database?
 
 O Room é o banco de dados local oficial e recomendado pelo Google para desenvolvimento Android, sendo a escolha ideal para este projeto pelos seguintes motivos:
-•	Alinhamento com a stack tecnológica: Integra nativamente com Kotlin, Android Studio e Gradle, sem exigir ferramentas externas ou bibliotecas de terceiros descontinuadas.
-•	Facilidade e produtividade: Simplifica drasticamente o trabalho com dados em comparação ao SQLite puro — elimina a escrita de código repetitivo, conversão manual de valores e gerenciamento de cursores.
+-	Alinhamento com a stack tecnológica: Integra nativamente com Kotlin, Android Studio e Gradle, sem exigir ferramentas externas ou bibliotecas de terceiros descontinuadas.
+-	Facilidade e produtividade: Simplifica drasticamente o trabalho com dados em comparação ao SQLite puro — elimina a escrita de código repetitivo, conversão manual de valores e gerenciamento de cursores.
 •	Segurança: Detecta erros de consulta em tempo de compilação, evitando falhas que só apareceriam durante o uso; combina perfeitamente com a proteção contra valores nulos do Kotlin.
 •	Complementa o que já existe: O SharedPreferences continua sendo usado para configurações simples (cores, sons, tamanhos), enquanto o Room assume o armazenamento de dados estruturados e relacionais — como cadastro de jogadores, histórico de partidas e ranking.
 •	Evolução garantida: Permite expandir facilmente o sistema com novas tabelas (conquistas, níveis salvos, estatísticas) sem reescrever a base.
