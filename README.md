@@ -4,6 +4,7 @@
 ## 3 - [Documentação](documentacao.md)
 ## 4 - [Telas](Tela.jpg)
 ## 5 - Código Fonte: 
+## 10 - Explicar qual o banco de dados local será usado e como ele será implementado no aplicativo
 Para acessar o código-fonte do projeto:
 1. Acesse o repositório.
 2. Clique em **Switch branches/tags**.
