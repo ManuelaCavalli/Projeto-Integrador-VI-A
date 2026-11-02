@@ -2,13 +2,6 @@
 
 Para evitar apenas a exibição de telas jogadas e garantir a correta arquitetura de informação do jogo **Brick Breaker**, este documento mapeia a jornada de navegação do usuário através de nossos wireframes de alta definição.
 
-## 🧭 Mapa Geral do Fluxo de Telas
-A imagem abaixo ilustra como todas as interfaces se conectam logicamente. Cada ação do usuário (clique em botões ou transições automáticas) aponta diretamente para a sua respectiva tela destino.
-
-![Fluxo Completo de Telas](./wireframe_fluxo.png)
-
----
-
 ## 📐 Detalhamento Estrutural das Interfaces
 
 ### 1. Menu Principal
