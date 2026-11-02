@@ -1,9 +1,0 @@
-Proposta de Desenvolvimento de Aplicativo  
-1\. Nome do Projeto  
-O nome escolhido para o nosso aplicativo de celular é Quebra-Tudo Retro (Brick Breaker Evolution)  
-2\. Problema que Resolve  
-O Problema: No cotidiano acelerado, as pessoas enfrentam altos níveis de estresse e fadiga mental, mas frequentemente dispõem apenas de pequenos intervalos de tempo livres (como a espera em uma fila ou o trajeto no transporte público). A maioria dos jogos mobile modernos exige muito tempo de dedicação, conexões constantes à internet ou mecânicas complexas que geram mais ansiedade do que relaxamento.  
-Como o App resolve esse problema: Nosso aplicativo reinventa o clássico jogo Brick Breaker para oferecer uma solução de entretenimento rápido, acessível e terapeuticamente satisfatória:  
-• Alívio rápido de estresse: A mecânica de destruir blocos com uma bolinha gera um feedback visual e sonoro altamente recompensador, ajudando a aliviar a tensão diária instantaneamente.  
-• Acessibilidade e foco: Apresenta uma jogabilidade simples baseada em reflexo e coordenação motora, ideal para sessões curtas e casuais que ajudam a "limpar a mente" sem exigir horas de dedicação.  
-• Disponibilidade offline: Funciona perfeitamente sem internet, garantindo entretenimento leve em qualquer lugar e poupando a bateria do celular do usuário.  
