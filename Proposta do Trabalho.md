@@ -1,6 +1,6 @@
 # **Proposta de Desenvolvimento de Aplicativo**  
 ## **1. Nome do Projeto**  
-O nome escolhido para o nosso aplicativo de celular é **Quebra-Tudo Retro (Brick Breaker Evolution)**.  
+O nome escolhido para o nosso aplicativo de celular é Brick Breaker.  
 ## **2. Problema que Resolve**  
 **O Problema:**  
 No cotidiano acelerado, as pessoas enfrentam altos níveis de estresse e fadiga mental, mas frequentemente dispõem apenas de pequenos intervalos de tempo livres, como a espera em uma fila ou o trajeto no transporte público.  
