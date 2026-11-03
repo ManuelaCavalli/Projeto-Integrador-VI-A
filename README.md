@@ -6,6 +6,5 @@
 ## 5 - [Banco de Dados Local](banco%20de%20dados%20local.md)
 ## 6 - [Características](CARACTERISTICAS.md)
 ## 7 - [Modelo ER](MODELO%20ER.png)
-## 8 - [Telas](TELAS.jpg)
-## 9 - [Proposta do Trabalho](PROPOSTA%20DO%20TRABALHO.md)
-## 10 - [Público Alvo](PUBLICO_ALVO.md)
+## 8 - [Proposta do Trabalho](PROPOSTA%20DO%20TRABALHO.md)
+## 9 - [Público Alvo](PUBLICO_ALVO.md)
