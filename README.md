@@ -1,6 +1,6 @@
 # Projeto-Integrador-VI-B
 ## 1 - [Tecnologias utilizadas](TECNOLOGIAS.md)
-## 2 - [Construção da Parede de Blocos](Construção%20da%20Parede%20de%20Blocos.md)
+## 2 - [Documentação](DOCUMETAÇÃO.md)
 ## 3 - [Documentação](documentacao.md)
 ## 4 - [Telas](tela.jpg)
 ## 5 - [Banco de Dados Local](banco%20de%20dados%20local.md)
