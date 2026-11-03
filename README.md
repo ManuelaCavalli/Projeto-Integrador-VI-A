@@ -2,7 +2,7 @@
 ## 1 - [Tecnologias utilizadas](TECNOLOGIAS%20USADAS.md)
 ## 2 - [Geração de APK](GERAÇÃO%20DE%20APK.md)
 ## 3 - [Documentação](DOCUMENTAÇÃO.md)
-## 4 - [Telas](TELAS.jpg)
+## 4 - [Telas](Telas.jpg)
 ## 5 - [Banco de Dados Local](banco%20de%20dados%20local.md)
 ## 6 - [Características](CARACTERISTICAS.md)
 ## 7 - [Modelo ER](MODELO%20ER.png)
