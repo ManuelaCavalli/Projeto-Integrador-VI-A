@@ -1,4 +1,4 @@
-## Por que escolhemos o Room Database?
+## Por que escolhemos o SQLite?
 
 ## O SQLite é o banco de dados relacional leve, independente e padrão do sistema operacional Android, sendo a escolha ideal para este projeto pelos seguintes motivos:
 
@@ -10,36 +10,46 @@
 
 ## Como será aplicado no projeto?
 
-A implementação segue a arquitetura padrão do Room, organizada em camadas claras:
+A implementação segue a arquitetura organizada em camadas, adaptada para o uso direto das APIs do SQLite no Android:
 
 ## 2.1 Estrutura de Dados — Entidades
-Definem o que é armazenado no aparelho do usuário:
+Definem o que é armazenado no aparelho do usuário, com criação explícita por meio de comandos SQL:
 -	Tabela usuarios: Cadastro de jogadores com nome, pontuação total, maior pontuação, quantidade de partidas jogadas e nível máximo alcançado.
--	Tabela pontuacoes: Registro de cada partida jogada, ligada ao jogador por meio de um identificador (usuarioId), com pontos obtidos, nível e data.
-## 2.2 Acesso aos Dados — DAO
-Interface que concentra todas as operações:
--	Cadastrar ou buscar jogador;
--	Salvar resultado de partida;
--	Consultar ranking ordenado por maior pontuação (Top 10);
--	Consultar histórico de partidas de um jogador.
+-	Tabela pontuacoes: Registro de cada partida jogada, ligada ao jogador por meio de um identificador (`usuarioId`), com pontos obtidos, nível alcançado e data da partida.
+-	Relacionamento estabelecido por chave estrangeira, garantindo integridade entre os registros de jogador e suas pontuações.
+  
+## 2.2 Acesso aos Dados — Operações com SQLite
+
+Classe auxiliar que concentra todas as consultas e comandos, evitando repetição e centralizando a lógica:
+
+- Inserir ou buscar jogador pelo nome;
+- Registrar resultado de partida vinculada ao jogador;
+- Consultar ranking ordenado pela maior pontuação, limitado aos 10 primeiros colocados;
+- Retornar o histórico completo de partidas de um jogador específico;
+- Atualizar automaticamente pontuações e estatísticas do jogador ao salvar uma nova partida.
+
 ## 2.3 Gerenciamento do Banco
--	Classe única (AppDatabase) que representa a conexão com o arquivo local do banco;
--	Padrão Singleton: apenas uma instância aberta durante toda a execução do app, evitando conflitos e desperdício de memória;
--	Controle de versão para permitir atualizações da estrutura sem perder dados.
+- Classe `BancoHelper` que estende `SQLiteOpenHelper` — responsável por abrir a conexão, criar o arquivo do banco na primeira execução e gerenciar o ciclo de vida do armazenamento;
+- Controle de versão implementado: ao alterar a estrutura, o método onUpgrade cuida de atualizar as tabelas preservando ou migrando os dados existentes;
+- Gestão de conexões: controle de abertura e fechamento para evitar vazamentos de memória e conflitos de acesso.
+
 ## 2.4 Camada de Serviço — Repositório
--	Classe intermediária que separa o código do jogo das operações com o banco;
--	Todas as ações rodam em segundo plano (corrotinas), sem travar a tela nem o loop de animação do jogo;
--	Disponibiliza métodos simples: obterOuCriarUsuario(), registrarPartida(), carregarRanking().
+- Classe intermediária que separa o código da interface e do jogo das operações diretas com o banco;
+- Todas as consultas e gravações executam em linhas de execução em segundo plano, sem travar a tela nem o loop de animação do jogo;
+- Disponibiliza métodos de uso simples: `obterOuCriarUsuario()`, `registrarPartida()`, `carregarRanking()`, ocultando os detalhes de comandos SQL e cursores.
+
 ## 2.5 Integração com o Fluxo do Jogo
--	Ao iniciar, identifica ou cria o jogador pelo nome;
--	Ao final de cada partida: salva o resultado e recalcula automaticamente os recordes e estatísticas do jogador;
--	Na tela de ranking: carrega e exibe a lista dos 10 mais bem colocados, ordenada pela maior pontuação.
+
+- Ao iniciar o aplicativo: verifica se o jogador já existe pelo nome informado; se não existir, cria um novo registro;
+- Ao final de cada partida: abre a conexão, insere o resultado na tabela de pontuações, atualiza os totais e recordes do jogador e encerra a operação;
+- Na tela de ranking: executa a consulta ordenada, percorre o `Cursor` com os resultados e exibe a lista atualizada dos 10 melhores colocados.
 
 ## 3. Resultado Esperado
--	Dados permanecem salvos mesmo após fechar o aplicativo;
--	Código organizado, fácil manter e de expandir;
--	Interface sempre responsiva, sem travamentos;
--	Sistema de ranking funcional e atualizado em tempo real;
+- Dados permanecem salvos no dispositivo mesmo após fechar e reiniciar o aplicativo;
+- Estrutura transparente e totalmente controlável, facilitando manutenção e aprendizado sobre funcionamento de bancos de dados;
+- Interface responsiva, com operações de banco executadas fora da thread principal;
+- Sistema de ranking funcional, consistente e atualizado após cada partida;
+- Base preparada para expansão com novas tabelas e regras conforme o jogo evolui.
 
 
-## Fontes: developer.android.google.cn/training/data-storage/room.html?hl=pt-br
+## Fontes: ttps://developer.android.com/training/data-storage/sqlite?hl=pt_br
