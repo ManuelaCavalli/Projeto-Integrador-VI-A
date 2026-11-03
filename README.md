@@ -1,6 +1,6 @@
 # Projeto-Integrador-VI-B
 ## 1 - [Tecnologias utilizadas](TECNOLOGIAS.md)
-## 2 - [Geração de APK](GERAÇÃO DE APK.md)
+## 2 - [Geração de APK](GERAÇAODEAPK.md)
 ## 3 - [Documentação](documentacao.md)
 ## 4 - [Telas](tela.jpg)
 ## 5 - [Banco de Dados Local](banco%20de%20dados%20local.md)
