@@ -5,7 +5,7 @@
 - Suporte nativo e universal: Faz parte do núcleo do Android — não exige instalação de bibliotecas externas, não aumenta o tamanho do aplicativo e funciona em todos os dispositivos sem dependências adicionais.
 - Controle total sobre os dados: Permite definir com precisão cada detalhe da estrutura, tipos de dados, restrições, índices e relações, sem camadas intermediárias que limitem ou escondam o funcionamento do banco.
 - Compatibilidade e durabilidade: É a tecnologia de armazenamento local mais testada e estável da plataforma; código escrito para SQLite continua funcionando ao longo de versões e atualizações do Android sem risco de depreciação.
-- Divisão clara de responsabilidades: O `SharedPreferences` continua sendo usado para configurações simples (cores, sons, preferências de exibição), enquanto o SQLite assume o armazenamento de dados estruturados, relacionais e em maior volume — como cadastro de jogadores, histórico de partidas e ranking.
+- Divisão clara de responsabilidades: O SharedPreferences continua sendo usado para configurações simples (cores, sons, preferências de exibição), enquanto o SQLite assume o armazenamento de dados estruturados, relacionais e em maior volume — como cadastro de jogadores, histórico de partidas e ranking.
 - Evolução flexível: A estrutura pode ser ampliada com novas tabelas, campos e regras conforme o projeto cresce (conquistas, níveis salvos, estatísticas detalhadas), com total controle sobre as migrações de versão.
 
 ## Como será aplicado no projeto?
@@ -42,7 +42,7 @@ Classe auxiliar que concentra todas as consultas e comandos, evitando repetiçã
 
 - Ao iniciar o aplicativo: verifica se o jogador já existe pelo nome informado; se não existir, cria um novo registro;
 - Ao final de cada partida: abre a conexão, insere o resultado na tabela de pontuações, atualiza os totais e recordes do jogador e encerra a operação;
-- Na tela de ranking: executa a consulta ordenada, percorre o `Cursor` com os resultados e exibe a lista atualizada dos 10 melhores colocados.
+- Na tela de ranking: executa a consulta ordenada, percorre o Cursor com os resultados e exibe a lista atualizada dos 10 melhores colocados.
 
 ## 3. Resultado Esperado
 - Dados permanecem salvos no dispositivo mesmo após fechar e reiniciar o aplicativo;
