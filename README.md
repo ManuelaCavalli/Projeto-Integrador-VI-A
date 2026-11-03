@@ -6,4 +6,4 @@
 ## 5 - [Banco de Dados Local](banco%20de%20dados%20local.md)
 ## 8 - [Características](CARACTERISTICAS.md)
 ## 8 - [Modelo ER](MODELO%20ER.png)
-## 8 - [TELAS](TELAS.jpg)
+## 8 - [Telas](TELAS.jpg)
