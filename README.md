@@ -14,3 +14,4 @@ Para acessar o arquivo APK do aplicativo:
 1. Acesse o código do aplicativo seguindo o **TÓPICO 5**.
 2. Entre na pasta **app**.
 3. Localize o arquivo **"app-debug.apk"**.
+4. ## 8 - [Características](CARACTERISTICAS.md)
