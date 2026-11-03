@@ -6,7 +6,7 @@
 ### **3. Interface Gráfica — XML (View System)**  
 Utilizado para construir e organizar os elementos visuais das telas do aplicativo, como menus, botões, telas de pontuação, configurações e ranking. Permite definir o posicionamento, tamanho e aparência dos componentes da interface.  
 ### **4. Banco de Dados — Room Database e SQLite**  
-O Room é uma biblioteca de persistência de dados do Android que facilita o trabalho com o SQLite, banco de dados utilizado para armazenar informações localmente no dispositivo. No projeto, será responsável por guardar os jogadores cadastrados, pontuações, histórico de partidas e informações do ranking, permitindo que esses dados permaneçam salvos mesmo após fechar o aplicativo.  
+O Room é uma biblioteca de persistência de dados do Android que facilita o trabalho com o SQLite, banco de dados utilizado para armazenar informações localmente no dispositivo. No projeto, será responsável por guardar os jogadores cadastrados, pontuações, e informações do ranking, permitindo que esses dados permaneçam salvos mesmo após fechar o aplicativo.  
 ### **5. Acesso aos Dados — DAO**  
 O DAO (Data Access Object) é uma interface utilizada pelo Room para definir as operações realizadas no banco de dados. No projeto, será responsável por executar consultas, cadastrar jogadores, salvar resultados das partidas e recuperar as informações necessárias para exibir o histórico e o ranking.  
 ### **6. Execução em Segundo Plano — Coroutines**  
