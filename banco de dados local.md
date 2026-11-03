@@ -15,7 +15,7 @@ A implementação segue a arquitetura organizada em camadas, adaptada para o uso
 ## 2.1 Estrutura de Dados — Entidades
 Definem o que é armazenado no aparelho do usuário, com criação explícita por meio de comandos SQL:
 -	Tabela usuarios: Cadastro de jogadores com nome, pontuação total, maior pontuação, quantidade de partidas jogadas e nível máximo alcançado.
--	Tabela pontuacoes: Registro de cada partida jogada, ligada ao jogador por meio de um identificador (`usuarioId`), com pontos obtidos, nível alcançado e data da partida.
+-	Tabela pontuacoes: Registro de cada partida jogada, ligada ao jogador por meio de um identificador (usuarioId), com pontos obtidos, nível alcançado e data da partida.
 -	Relacionamento estabelecido por chave estrangeira, garantindo integridade entre os registros de jogador e suas pontuações.
   
 ## 2.2 Acesso aos Dados — Operações com SQLite
@@ -29,14 +29,14 @@ Classe auxiliar que concentra todas as consultas e comandos, evitando repetiçã
 - Atualizar automaticamente pontuações e estatísticas do jogador ao salvar uma nova partida.
 
 ## 2.3 Gerenciamento do Banco
-- Classe `BancoHelper` que estende `SQLiteOpenHelper` — responsável por abrir a conexão, criar o arquivo do banco na primeira execução e gerenciar o ciclo de vida do armazenamento;
+- Classe BancoHelper que estende SQLiteOpenHelper — responsável por abrir a conexão, criar o arquivo do banco na primeira execução e gerenciar o ciclo de vida do armazenamento;
 - Controle de versão implementado: ao alterar a estrutura, o método onUpgrade cuida de atualizar as tabelas preservando ou migrando os dados existentes;
 - Gestão de conexões: controle de abertura e fechamento para evitar vazamentos de memória e conflitos de acesso.
 
 ## 2.4 Camada de Serviço — Repositório
 - Classe intermediária que separa o código da interface e do jogo das operações diretas com o banco;
 - Todas as consultas e gravações executam em linhas de execução em segundo plano, sem travar a tela nem o loop de animação do jogo;
-- Disponibiliza métodos de uso simples: `obterOuCriarUsuario()`, `registrarPartida()`, `carregarRanking()`, ocultando os detalhes de comandos SQL e cursores.
+- Disponibiliza métodos de uso simples: obterOuCriarUsuario(), registrarPartida(), carregarRanking(), ocultando os detalhes de comandos SQL e cursores.
 
 ## 2.5 Integração com o Fluxo do Jogo
 
