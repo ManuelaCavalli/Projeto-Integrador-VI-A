@@ -8,3 +8,4 @@
 ## 7 - [Modelo ER](MODELO%20ER.png)
 ## 8 - [Telas](TELAS.jpg)
 ## 9 - [Proposta do Trabalho](PROPOSTA%20DO%20TRABALHO.md)
+## 10 - [Público Alvo](PUBLICO_ALVO.md)
