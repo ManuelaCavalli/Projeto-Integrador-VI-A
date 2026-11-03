@@ -52,4 +52,4 @@ Classe auxiliar que concentra todas as consultas e comandos, evitando repetiçã
 - Base preparada para expansão com novas tabelas e regras conforme o jogo evolui.
 
 
-## Fontes: ttps://developer.android.com/training/data-storage/sqlite?hl=pt_br
+## Fontes: https://developer.android.com/training/data-storage/sqlite?hl=pt_br
