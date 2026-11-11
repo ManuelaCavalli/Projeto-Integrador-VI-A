@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="#FFFFFF">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RANKING"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp" />
+
+    <!-- Primeiro colocado -->
+    <TextView
+        android:id="@+id/txtPrimeiro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1º  Jogador 1        2500 pontos"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Segundo colocado -->
+    <TextView
+        android:id="@+id/txtSegundo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2º  Jogador 2        1800 pontos"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Terceiro colocado -->
+    <TextView
+        android:id="@+id/txtTerceiro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3º  Jogador 3        1200 pontos"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_marginBottom="40dp" />
+
+    <!-- Botão Voltar -->
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voltar" />
+
+</LinearLayout>
