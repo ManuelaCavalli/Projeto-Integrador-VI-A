@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".GameActivity">
+
+
+
+    <!-- PONTUAÇÃO  REMOVER PONTUÇÃO                                               -->
+
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Score: 0"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <!-- ÁREA DOS BLOCOS                                           -->
+    <!-- Os blocos são criados dinamicamente pelo GameActivity.    -->
+
+
+    <LinearLayout
+        android:id="@+id/brickContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/scoreText" />
+
+
+
+    <!-- BOLA                                                       -->
+    <!-- A posição da bola é controlada pelo GameActivity.         -->
+
+
+    <View
+        android:id="@+id/ball"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <!-- RAQUETE                                                    -->
+    <!-- O jogador movimenta a raquete através do toque na tela.   -->
+
+
+    <View
+        android:id="@+id/paddle"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="40dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+    <!-- BOTÃO DE INÍCIO                                           -->
+    <!-- Aparece antes da partida e depois do Game Over.           -->
+
+
+    <Button
+        android:id="@+id/newgame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toque para iniciar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
