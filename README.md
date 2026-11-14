@@ -15,7 +15,7 @@ Este repositório contém a implementação do jogo **Brick Breaker**, desenvolv
 ## 📄 Documentação Obrigatória
 
 1. [CARACTERÍSTICAS](CARACTERISTICAS.md)
-2. [DOCUMENTAÇÃO](CARACTERISTICAS.md)
+2. [DOCUMENTAÇÃO](Documentação.md)
 3. **Métodos de Construção** (`METODOS_CONSTRUCAO.md`)
 
 
