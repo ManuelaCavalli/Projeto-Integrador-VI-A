@@ -1,8 +1,7 @@
 
 # Projeto Integrador VI-B - Brick Breaker
 
-Este repositório contém a implementação do jogo **Brick Breaker**, desenvolvido para a disciplina de Projeto Integrador. O objetivo é destruir blocos rebatendo uma bola com uma plataforma controlada pelo usuário.
-
+Este repositório contém a implementação do jogo **Brick Breaker**, com banco de dadso SQLite desenvolvido para a disciplina de Projeto Integrador.
 ## 👥 Integrantes do Grupo
 
 - **Rodrigo M Grings**
