@@ -1,5 +1,5 @@
 
-# Projeto Integrador VI-A - Brick Breaker
+# Projeto Integrador VI-B - Brick Breaker
 
 Este repositório contém a implementação do jogo **Brick Breaker**, desenvolvido para a disciplina de Projeto Integrador. O objetivo é destruir blocos rebatendo uma bola com uma plataforma controlada pelo usuário.
 
