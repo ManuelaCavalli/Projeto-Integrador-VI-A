@@ -9,6 +9,7 @@ Este repositório contém a implementação do jogo **Brick Breaker**, com banco
 - **Augusto Cézar Rhoden**
 - **Manuela Cavalli Pinto**
 - **Rangel Montovani Ronzani**
+- **Alexander Costela**
 
 ## 📄 Documentação Obrigatória
 
