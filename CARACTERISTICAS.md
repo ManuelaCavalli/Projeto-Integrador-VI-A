@@ -56,7 +56,7 @@ O sistema deve atualizar a pontuação total, a maior pontuação, a quantidade 
 
 ## 4.14 *Ranking*
 
-O sistema deve exibir a classificação dos dez jogadores com maior pontuação registrados no dispositivo, em ordem decrescente.
+O sistema deve exibir a classificação dos 3 jogadores com maior pontuação registrados no dispositivo, em ordem decrescente.
 
 ## 4.15 Histórico de partidas
 
