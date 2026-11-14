@@ -18,7 +18,7 @@ Este repositório contém a implementação do jogo **Brick Breaker**, desenvolv
 2. [DOCUMENTAÇÃO](Documentação.md)
 3. [GERAÇÃO DE APK](GERAÇÃO%20DE%20APK.md)
 4. [MODELO ER](MODELO%20ER.png)
-5. [PÚBLICO ALVO]()
+5. [PÚBLICO ALVO](PUBLICO_ALVO.md)
 
 
 ## 🚀 Como Executar o Projeto
