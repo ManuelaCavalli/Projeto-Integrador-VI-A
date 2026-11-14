@@ -22,5 +22,5 @@ Este repositório contém a implementação do jogo **Brick Breaker**, com banco
 7. [TECNOLOGIAS USADAS](TECNOLOGIAS%20USADAS.md)
 8. [TELAS](Telas.jpg)
 9. [BANCO DE DADOS](banco%20de%20dados%20local.md)
-## Link do Vídeo:
+## Link YouTube:
 https://youtu.be/2vzUcgWj-qY
