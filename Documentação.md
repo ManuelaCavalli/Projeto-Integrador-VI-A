@@ -11,6 +11,7 @@ Para evitar apenas a exibição de telas jogadas e garantir a correta arquitetur
   * Botão `Integrantes` -> Abre a listagem da equipe.
   * Botão `Iniciar Jogo` -> Encaminha para a validação de clique antes da partida.
   * Botão `Configurações` -> Abre o painel de preferências físicas e visuais.
+  * Botão `Ranking` -> Abre o painel mostrando os jogadores com maior pontuação.
 
 ### 2. Painel de Integrantes
 * **Propósito:** Exibir os créditos e os desenvolvedores do projeto.
