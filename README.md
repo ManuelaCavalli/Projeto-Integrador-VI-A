@@ -21,7 +21,9 @@ Este repositório contém a implementação do jogo **Brick Breaker**, desenvolv
 5. [PÚBLICO ALVO](PUBLICO_ALVO.md)
 6. [PROPOSTA DE TRABALHO](Proposta%20de%20Trabalho.md)
 7. [TECNOLOGIAS USADAS](TECNOLOGIAS%20USADAS.md)
-
+8. [TELAS](Telas.jpg)
+9. [BANCO DE DADOS]()
+/
 
 ## 🚀 Como Executar o Projeto
 
