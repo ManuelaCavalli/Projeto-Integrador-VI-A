@@ -22,15 +22,6 @@ Este repositório contém a implementação do jogo **Brick Breaker**, desenvolv
 6. [PROPOSTA DE TRABALHO](Proposta%20de%20Trabalho.md)
 7. [TECNOLOGIAS USADAS](TECNOLOGIAS%20USADAS.md)
 8. [TELAS](Telas.jpg)
-9. [BANCO DE DADOS]()
-/
-
-## 🚀 Como Executar o Projeto
-
-1. Clone este repositório.
-2. Abra a pasta raiz no Android Studio.
-3. Aguarde a sincronização do Gradle.
-4. Execute em um emulador ou dispositivo Android.
-
+9. [BANCO DE DADOS](banco%20de%20dados%20local.md)
 ## Link do Vídeo:
 https://youtu.be/2vzUcgWj-qY
